@@ -1,0 +1,34 @@
+#texts1 {
+    color: black;
+    text-align: left;
+    text-decoration: underline wavy;
+    line-height: 50px;
+    
+}
+#texts2 {
+    color: blue;
+    text-align: right;
+    text-decoration: overline underline solid;
+    letter-spacing: 3px;
+}
+#texts3 {
+    color: rgba(9, 12, 159, 0.8);
+    text-align: justify;
+    text-decoration: line-through red;
+    text-transform: uppercase;
+    text-indent: 2em;
+}
+#texts4 {
+    color: hsla(120, 60%, 70%, 0.9);
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 15px;
+
+    
+}
+#texts5 {
+    color: rgba(12, 11, 1, 0.3s);
+    text-transform: lowercase;
+    text-shadow: 2px 2px 0px;
+    
+}

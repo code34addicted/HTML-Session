@@ -1,0 +1,26 @@
+HEADINGS
+<h1>   </h1>
+This is heading 1
+This is heading 2
+This is heading 3
+This is heading 4
+This is heading 5
+This is heading 6
+PARAGRAPHS
+<p>   </p>
+DAY HAD DAWNED COLD AND GRAY WHEN the man turned aside from the main Yukon trail. He climbed the high earth-bank where a little-traveled trail led east through the pine forest. It was a high bank, and he paused to breathe at the top. He excused the act to himself by looking at his watch. It was nine o’clock in the morning. There was no sun or promise of sun, although there was not a cloud in the sky. It was a clear day. However, there seemed to be an indescribable darkness over the face of things. That was because the sun was absent from the sky. This fact did not worry the man. He was not alarmed by the lack of sun. It had been days since he had seen the sun.
+HORIZONTAL LINES
+<hr>
+The hr defines a horizontal rule
+This is the first paragraph
+This is the second paragraph
+This is the third paragraph
+This is the last paragraph
+LINE BREAKS
+<br>   </br>
+First line
+Second line
+Third line
+Forth line
+COMMENTS
+<!-- This is my comment  -->

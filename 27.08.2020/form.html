@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="result.html" method="GET" name="myform">
+    <div>
+        <label for="cars">Choose a car:</label>
+        <br>
+        <select name="cars" id="cars"> 
+            <!-- buraya multiple koyarsak birden fazla seçenek yapabiliriz multiple size:2 dersek 2 seçim  -->
+            <option value="Porshe">Porshe</option>
+            <option value="Masserati" selected>Masserati</option>
+            <option value="BMW">BMW</option>
+            <option value="Tesla">Tesla</option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+        <label for="message">Enter Comment Here</label>
+        <br>
+        <textarea name="message" id="t-area" cols="20" rows="10" maxlength="200">Enter text here</textarea>
+        <!-- burada rows ve cols yerine width ve height pix olarak da kullanılabilir -->
+    </div>
+    <br>
+
+    <div>
+        <label for="browsers">Browsers</label>
+        <input type="text" list="browsers" name="options">
+        <datalist id="browsers">
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+            <option value="Opera"></option>
+            <option value="IE"></option>
+        </datalist>
+    </div>
+    <br>
+
+    <div>
+        <fieldset>
+            <legend>Personel Info</legend>
+            <label for="fname">First Name:</label>
+            <br>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <label for="lname">Last Name</label>
+            <br>
+            <input type="text" name="lname" id="lname">
+        </fieldset>
+    </div>
+    <input type="submit" value="Send">
+</form>
+</body>
+</html>

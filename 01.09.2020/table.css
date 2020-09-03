@@ -1,0 +1,31 @@
+table, th, td {
+    border: 3px solid #000000;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th {
+    height: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 15px;
+    background-color: rgb(39, 243, 49);
+}
+caption {
+    caption-side: bottom;
+}
+td {
+    text-align: center;
+    padding: 15px;
+    background-color: darkorange;
+}
+th:hover, td:hover {
+    background-color: cornflowerblue;
+}
+/* tr:nth-child("even") {
+    background-color: deeppink;
+    burası çalışmadı normalde even dediği yani çiftlerin rengi olacaktı
+} */
